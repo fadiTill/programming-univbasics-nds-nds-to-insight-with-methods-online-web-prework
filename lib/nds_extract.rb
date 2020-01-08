@@ -28,7 +28,7 @@ while row_index <  gross_for_director.length do
   row_index += 1
 end
  
-p 
+p directors_total
   
   result = {}
   nil
