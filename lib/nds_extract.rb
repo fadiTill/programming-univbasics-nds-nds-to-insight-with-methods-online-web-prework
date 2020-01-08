@@ -1,4 +1,10 @@
- pp require 'directors_database'
+  require 'directors_database'
+def gross_for_director
+  gross_for_director = {
+    :directorone => ['100']
+    :directortwo => ['200']
+    :directortree => ['300']
+  }
 [ ]
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
