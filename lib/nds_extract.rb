@@ -12,7 +12,14 @@ def gross_for_director
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  directors_totals = 
+  directors_totals = 0
+  row_index = 0
+while row_index <  gross_for_director.length do
+  column_index = 0
+  while column_index < gross_for_director[row_index].length do
+    inner_len = gross_for_director[row_index][column_index].length
+    inner_index = 0
+    while inner_index < inner_len do
   result = {}
   nil
 end
