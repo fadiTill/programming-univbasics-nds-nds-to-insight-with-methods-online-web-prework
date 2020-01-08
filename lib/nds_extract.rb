@@ -20,6 +20,7 @@ while row_index <  gross_for_director.length do
     inner_len = gross_for_director[row_index][column_index].length
     inner_index = 0
     while inner_index < inner_len do
+      
   result = {}
   nil
 end
