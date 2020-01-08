@@ -12,6 +12,7 @@ def gross_for_director
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
+  directors_totals = 
   result = {}
   nil
 end
